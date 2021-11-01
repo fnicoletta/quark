@@ -1,0 +1,44 @@
+.emailSubmit {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .input {
+    box-sizing: border-box;
+    width: 90%;
+    padding: 8px;
+    border: 1px solid #f04e23;
+    background-color: #f0f0f0;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+  }
+
+  .btn {
+    width: 90%;
+    padding: 8px;
+    border: 1px solid #f04e23;
+    background-color: #f04e23;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+
+  // @media (min-width: 768px) {
+  //   input {
+  //     padding: 5px;
+  //     padding-left: 8px;
+  //     border-radius: 5px 0 0 5px;
+  //     border: 1px solid #f0f0f0;
+  //     background-color: #f0f0f0;
+  //   }
+  //   button {
+  //     padding: 5px;
+  //     border-radius: 0 5px 5px 0;
+  //     border: 1px solid #f04e23;
+  //     background-color: #f04e23;
+  //     color: white;
+  //     font-weight: bold;
+  //   }
+  // }
+}
